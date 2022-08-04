@@ -15,6 +15,5 @@ public class LinkedListToArrayList {
 		//change linkedlist to Arraylist
 		ArrayList<String> arrlist=new ArrayList<>(list);
 		System.out.println("this is the arraylist: "+arrlist);
-
 	}
 }

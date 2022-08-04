@@ -20,8 +20,6 @@ public class ho {
 					}
 				}
 			}
-
-
 		});
 
 		Thread thread2 = new Thread(() -> {

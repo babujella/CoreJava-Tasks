@@ -22,7 +22,7 @@ public class Numbers {
 				itr.remove();
 		}
 		System.out.println(arrayList);
-		
+
 		ArrayList<Integer> list=new ArrayList<Integer>();
 		for(int j=0;j<=10;j++) {
 			list.add(j);

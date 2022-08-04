@@ -5,9 +5,8 @@ public class EmployeeMain {
 		Employee employee =new Employee();
 		Manager manager=new Manager();
 		employee.create();
-		employee.write();
-		employee.read();
-		manager.write();
-		manager.read();
+		/*
+		 * employee.write(); employee.read(); manager.write(); manager.read();
+		 */
 	}
 }
