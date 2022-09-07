@@ -24,13 +24,13 @@ public class RemoveDuplicateInArray{
 
 	public static void main (String[] args) {  
 		Scanner sc=new Scanner(System.in);
-//		System.out.println("Enter the Size of Array :");
-//		int size=sc.nextInt();
-//		int arr[]=new int[size];
-//		System.out.println("Enter the ArrayElements :");
-//		for(int n=0;n<=size;n++) {
-//			 arr[n]=sc.nextInt();
-//		}
+		//		System.out.println("Enter the Size of Array :");
+		//		int size=sc.nextInt();
+		//		int arr[]=new int[size];
+		//		System.out.println("Enter the ArrayElements :");
+		//		for(int n=0;n<=size;n++) {
+		//			 arr[n]=sc.nextInt();
+		//		}
 		int arr[] = {10,20,20,30,30,40,50,50};  
 		int length = arr.length;  
 		length = removeDuplicateElements(arr, length);  
@@ -38,6 +38,6 @@ public class RemoveDuplicateInArray{
 		System.out.println("Elements :");
 		for (int i=0; i<length; i++)  
 			System.out.print(+arr[i]+" "); 
-		
+
 	}  
 }

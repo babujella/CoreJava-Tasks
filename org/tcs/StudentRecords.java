@@ -32,11 +32,14 @@ public class StudentRecords {
 			System.out.println(hashMap);
 			System.out.println();
 		}
-
+		ArrayList<Integer> list=new ArrayList<Integer>();
 		while(true) {
 			System.out.println("Enter Id :");
 			int SerachId=scanner.nextInt();
-
+			if(hashMap.containsValue(SerachId)) {
+				list.add(SerachId);
+				System.out.println(list);
+			}
 			if(hashMap.containsKey(SerachId)) {
 				System.out.println(hashMap.get(SerachId));
 			}

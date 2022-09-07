@@ -24,27 +24,27 @@ public class Employee {
 		arrayList.add(s3);
 
 		boolean b=false;
-		
+
 		while(b) {
-		System.out.println("Enter your Id :");
-		int studentId=sc.nextInt();
-		for(Employee student:arrayList) {
-			if(student.id==studentId) {
-				b=true;
+			System.out.println("Enter your Id :");
+			int studentId=sc.nextInt();
+			for(Employee student:arrayList) {
+				if(student.id==studentId) {
+					b=true;
+				}
+			}
+			try {
+				if(b) {
+					System.out.println("Welcome");
+				}
+				else {
+					throw new Exception("Exception Raised : Invalid Id");
+				}
+			}
+			catch(Exception e){
+				System.out.println(e);
 			}
 		}
-		try {
-			if(b) {
-				System.out.println("Welcome");
-			}
-			else {
-				throw new Exception("Exception Raised : Invalid Id");
-			}
-		}
-		catch(Exception e){
-			System.out.println(e);
-		}
-	}
 	}
 
 }

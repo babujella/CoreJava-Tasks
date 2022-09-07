@@ -25,9 +25,7 @@ public class User {
 			if(hashMap.containsKey(name)) {
 				System.out.println("Duplicate name exsits.. ");
 				break;
-			}
-
-
+			}	
 			else {
 				if(number.charAt(0)>='6') {
 					long finalNumber=Long.parseLong(number);
@@ -40,7 +38,6 @@ public class User {
 					System.out.println();
 				}
 			}
-
 		}
 		System.out.println("Final answer");
 		System.out.println();

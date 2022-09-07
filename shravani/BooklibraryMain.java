@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class BooklibraryMain {
 	static Scanner scanner=new Scanner(System.in);
 	
+	
 	public static BookLibrary getbokkLibrary() {
 		BookLibrary BookL=new BookLibrary();
 		System.out.println("Enter the Bookname:");
@@ -23,12 +24,11 @@ public class BooklibraryMain {
 		System.out.println("cost :"+booklibrary.getCost());
 	}
 	
-	
 	public static void main(String[] args) {
 
 		Scanner scanner=new Scanner(System.in);
 		int choose;
-		ShravaniMain main=new ShravaniMain();
+		UserMain main=new UserMain();
 		do {
 			System.out.println("enter 1 for create and 2 for view and 3 for closing Application");
 			choose=scanner.nextInt();

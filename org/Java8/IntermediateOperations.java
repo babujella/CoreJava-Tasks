@@ -12,7 +12,7 @@ public class IntermediateOperations {
 		Stream<String> fruitsdistinct=fruits.stream().distinct();
 		fruitsdistinct.forEach(System.out::println);
 		//Limit method
-		Stream.of("Babu","Aishu","Raju","Venky").limit(2).forEach(System.out::println);
+		Stream.of("Babu","Aishu","Raju","Venky").limit(3).forEach(System.out::println);
 		//((Stream<String>) fruits).limit(2).forEach(item->System.out.println(item));
 		//Peek method
 		Stream.of("one", "two", "three", "four").filter(e -> e.length() > 3)

@@ -12,14 +12,16 @@ public class ForeignKey {
 		for(int i=0;i<word.length();i++) {
 			for(int j=0;j<vowels.length();j++) {
 				if(word.charAt(i)==vowels.charAt(j)) {
-					count=1;
+					count++;
 					break;
 				}
 			}
-			if(count==1) {
-				break;
-			}
+			System.out.println(word.charAt(i)+" = "+count);
+//			if(count==1) {
+//				break;
+//			}
 		}
+		
 	}
 
 }
